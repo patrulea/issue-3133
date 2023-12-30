@@ -1,0 +1,10 @@
+{
+  "scripts": {
+    "start": "npx eleventy --serve --incremental --quiet",
+    "build": "npx eleventy"
+  },
+  "dependencies": {
+    "@11ty/eleventy": "^2.0.1",
+    "@11ty/eleventy-plugin-webc": "^0.11.2"
+  }
+}
